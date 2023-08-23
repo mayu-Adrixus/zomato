@@ -1,0 +1,266 @@
+/* Media Queries */
+
+@media (max-width: 1200px) {
+
+    section {
+        padding: 3rem 5%;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    /* Banner section */
+    .banner-content {
+        margin-top: 100px;
+    }
+
+    .banner-content h1 {
+        font-size: 70px;
+    }
+
+    .banner-content h3 {
+        font-size: 32px;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    section {
+        padding: 3rem 2rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    /* Header */
+    #menu-btn {
+        display: inline-block;
+        transition: .2s linear;
+    }
+
+    #menu-btn.fa-times {
+        transform: rotate(180deg);
+        color: #000;
+    }
+
+    .header {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .header .logo {
+        font-size: 18px;
+        width: 0;
+    }
+
+    .header .navbar {
+        max-width: 95%;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        padding: 1rem;
+        transition: .2s linear;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    .header .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .header .navbar a {
+        display: block;
+        margin: 1rem;
+        text-align: center;
+        color: #000;
+    }
+
+    /* Banner */
+    .banner-content h3 {
+        /* font-size: 30px; */
+    }
+
+    .banner-content {
+        max-width: 90%;
+    }
+
+    /* Loc-section */
+    .state h5 {
+        font-size: 15px;
+    }
+
+    /* Footer */
+    .footer .box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+        gap: 3rem;
+    }
+
+    .footer .box-container .link {
+       
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    /* login section */
+    section {
+        padding: 3rem 1rem;
+    }
+
+    /* Banner */
+    .banner-content h3 {
+        font-size: 24px;
+    }
+
+    .banner-content {
+        max-width: 95%;
+    }
+
+    /* Loc-Section */
+    .loc-content img {
+        width: 32px;
+    }
+
+    .loc-content h2 {
+        font-size: 28px;
+    }
+
+    .loc-content p {
+        padding-top: 32px;
+        font-size: 18px;
+    }
+
+    .states-container .state {
+        max-width: 40%;
+    }
+
+
+    /* footer */
+    .footer .credit {
+        font-size: 13px;
+        padding-top: 2rem;
+        margin-top: 2rem;
+    }
+
+}
+
+@media (max-width: 425px) {
+
+    /* Banner */
+    .banner-content h1 {
+        font-size: 58px;
+    }
+
+    .banner-content h3 {
+        font-size: 20px;
+    }
+
+    /* Loc-Section */
+    .loc-content img {
+        width: 24px;
+        margin: 0 4px;
+    }
+
+    .loc-content h2 {
+        font-size: 22px;
+    }
+
+    .loc-content p {
+        padding-top: 30px;
+        font-size: 14px;
+    }
+
+    .states-container .state {
+        max-width: 100%;
+    }
+
+    /* Footer */
+    .footer .box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+        gap: 3rem;
+    }
+
+    .footer .box-container .link img {
+        width: 150px;
+        margin: 0 20px;
+    }
+
+    .footer .box-container .link a {
+        margin: 0 24px 10px;
+        font-size: 16px;
+    }
+
+    .footer .credit {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .header {
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+
+    .header .logo {
+        font-size: 16px;
+    }
+
+    .header .navbar {
+        top: 13%;
+    }
+
+    /* Banner */
+    .banner-content {
+        max-width: 100%;
+    }
+
+    .banner-content h1 {
+        font-size: 48px;
+    }
+
+    .banner-content h3 {
+        font-size: 16px;
+    }
+
+    /* Loc-Section */
+    .loc-content img {
+        width: 20px;
+        margin: 0 4px;
+    }
+
+    .loc-content h2 {
+        font-size: 20px;
+    }
+
+    .loc-content p {
+        padding-top: 24px;
+        font-size: 13px;
+    }
+
+    /* footer */
+    .footer .credit {
+        font-size: 8px;
+    }
+
+    .footer .box-container .link a {
+        margin: 0 12px 10px;
+        font-size: 16px;
+    }
+
+    .footer .box-container .link img {
+        width: 100px;
+        margin: 0 12px;
+    }
+
+}
