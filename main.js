@@ -8,7 +8,6 @@ menu.onclick = () => {
 }
 
 // option
-
 const selectElement = document.getElementById('optionsSelect');
 
 selectElement.addEventListener('change', function() {
