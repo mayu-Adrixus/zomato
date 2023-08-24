@@ -1,0 +1,251 @@
+/* Media Queries */
+
+/* === @media max-width 1200px === */
+@media (max-width: 1200px) {}
+
+/* === @media max-width 1024px === */
+@media (max-width: 1024px) {
+
+    /* Banner section */
+    .banner-content .banner-title {
+        font-size: 64px;
+    }
+    .banner-content .banner-pg {
+        font-size: 32px;
+    }
+}
+
+/* === @media max-width 991px === */
+@media (max-width: 991px) {
+
+    /* banner */
+    .banner-content .banner-pg {
+        font-size: 28px;
+    }
+
+    /* footer */
+    .footer .box-container {
+        margin: 12px 5% 0 5%;
+    }
+}
+
+
+/* === @media max-width 768px === */
+@media (max-width: 768px) {
+
+    /* Header */
+    #menu-btn {
+        display: inline-block;
+        transition: .2s linear;
+    }
+    #menu-btn.fa-times {
+        transform: rotate(180deg);
+        color: #000;
+    }
+    .header {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .header .logo {
+        font-size: 18px;
+        width: 0;
+    }
+    .header .navbar {
+        max-width: 95%;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        padding: 16px;
+        transition: .2s linear;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    .header .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    ul {
+        display: block;
+    }
+    .header .navbar li a {
+        display: block;
+        margin: 48px;
+        text-align: center;
+        color: #000;
+    }
+
+    /* Banner */
+    .banner-content .banner-pg {
+        font-size: 25px;
+    }
+
+    /* Loc-section */
+    .state-box h5,
+    .box-content .box-title {
+        font-size: 15px;
+    }
+    .states-container .state-box,
+    .country-container .state-box {
+        margin-bottom: 28px;
+    }
+    .country-heading {
+        font-size: 28px;
+    }
+
+    /* Footer */
+    .footer-box {
+        max-width: 50%;
+    }
+    .footer .box-container {
+        margin: 12px 5% 0 10%;
+    }
+}
+
+/* === @media max-width 600px === */
+@media (max-width: 600px) {
+
+    /* Banner */
+    .banner-content .banner-pg {
+        font-size: 20px;
+    }
+
+    /* Loc-Section */
+    .loc-content img {
+        width: 32px;
+    }
+    .loc-content .loc-heading {
+        font-size: 28px;
+    }
+    .loc-content .loc-pg {
+        padding-top: 32px;
+        font-size: 18px;
+    }
+    .states-container .state-box,
+    .country-container .state-box {
+        max-width: 40%;
+        margin-bottom: 24px;
+    }
+
+    /* footer */
+    .footer .credit {
+        font-size: 13px;
+        padding-top: 32px;
+        margin-top: 32px;
+    }
+    .footer-header .logo-img {
+        max-width: 130px;
+    }
+    #optionsSelect {
+        font-size: 13px;
+    }
+}
+
+/* === @media max-width 425px === */
+@media (max-width: 425px) {
+
+    /* Banner */
+    .banner-content .banner-title {
+        font-size: 40px;
+    }
+    .banner-content .banner-pg {
+        font-size: 18px;
+    }
+
+    /* Loc-Section */
+    .loc-content img {
+        width: 24px;
+        margin: 0 4px;
+    }
+    .loc-content .loc-heading {
+        font-size: 22px;
+    }
+    .loc-content .loc-pg {
+        padding-top: 30px;
+        font-size: 14px;
+    }
+    .states-container .state-box,
+    .country-container .state-box {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .country-heading {
+        font-size: 24px;
+    }
+
+    /* Footer */
+    .footer-box {
+        max-width: 100%;
+    }
+    .footer-header .logo-img {
+        max-width: 100px;
+    }
+    #optionsSelect {
+        font-size: 12px;
+        padding: 5px 14px;
+    }
+    .footer .footer .box-container .link img {
+        width: 150px;
+        margin: 0 20px;
+    }
+    .footer .box-container .link a {
+        margin: 0 24px 10px;
+        font-size: 16px;
+    }
+    .footer .credit {
+        font-size: 12px;
+    }
+}
+
+/* === @media max-width 375px === */
+@media (max-width: 375px) {
+
+    .header {
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+    .header .logo {
+        font-size: 16px;
+    }
+    .header .navbar {
+        top: 13%;
+    }
+
+    /* Banner */
+    .banner-content .banner-title {
+        font-size: 40px;
+    }
+    .banner-content .banner-pg {
+        font-size: 14px;
+    }
+
+    /* Loc-Section */
+    .loc-content img {
+        width: 20px;
+        margin: 0 4px;
+    }
+    .loc-content .loc-heading {
+        font-size: 20px;
+    }
+    .loc-content .loc-pg {
+        padding-top: 24px;
+        font-size: 13px;
+    }
+    .country-heading {
+        font-size: 18px;
+    }
+
+    /* footer */
+    .footer .credit {
+        font-size: 8px;
+    }
+    .footer .box-container .link a {
+        margin: 0 12px 10px;
+        font-size: 16px;
+    }
+    .footer .box-container .link img {
+        width: 100px;
+        margin: 0 12px;
+    }
+}
