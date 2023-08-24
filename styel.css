@@ -100,7 +100,7 @@ section {
 
 /* Loc-Section */
 .loc-section {
-    /* padding: 32px 10%; */
+    padding: 32px 10%;
 }
 
 .loc-content {
@@ -118,7 +118,7 @@ section {
 .loc-content h2 {
     font-size: 36px;
     line-height: 1.2;
-    font-weight: 300;
+    font-weight: 400;
     color: #1c1c1c;
     margin: 0px;
 }
@@ -144,12 +144,13 @@ section {
 .states-container .state {
     position: relative;
     width: 100%;
-    max-width: 30.8%;
-    padding: 24px 38px;
-    border-radius: 14px;
+    max-width: 32%;
+    padding: 20px 32px;
+    border-radius: 8px;
     background: #ffffff;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
     border: 1px solid #e8e8e8;
-    margin: 0 auto 22px auto;
+    margin: 0px 14.5px 36px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -157,7 +158,7 @@ section {
 }
 
 .states-container .state:hover {
-    box-shadow: #1c1c1c14 0px 4px 4px;
+    box-shadow: #1c1c1c14 0px 2px 8px;
 }
 
 .state img {
@@ -166,11 +167,12 @@ section {
 }
 
 .state h5 {
-    font-size: 18px;
+    font-size: 19px;
     line-height: 1.2;
-    font-weight: 400;
+    font-weight: 300;
     color: #1c1c1c;
     margin: 0px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .states-container h2 {
@@ -270,11 +272,6 @@ section {
 .footer .box-container .link a i {
     padding: 5px;
     transition: .2s linear;
-}
-
-.footer .box-container .box a:hover i {
-    padding-right: 1rem;
-    color: #ff8400;
 }
 
 .footer .credit {
