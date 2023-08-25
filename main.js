@@ -9,8 +9,9 @@ menu.onclick = () => {
 
 // option
 const selectElement = document.getElementById('optionsSelect');
+const selectedOptionDisplay = document.getElementById('selectedOptionDisplay');
 
-selectElement.addEventListener('change', function() {
+selectElement.addEventListener('change', function () {
     const selectedValue = selectElement.value;
-    console.log('Selected option:', selectedValue);
+    selectedOptionDisplay.textContent = selectedValue; // Update the displayed value
 });

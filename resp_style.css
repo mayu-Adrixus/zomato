@@ -1,11 +1,6 @@
 /* Media Queries */
-
-/* === @media max-width 1200px === */
-@media (max-width: 1200px) {}
-
 /* === @media max-width 1024px === */
 @media (max-width: 1024px) {
-
     /* Banner section */
     .banner-content .banner-title {
         font-size: 64px;
@@ -17,22 +12,18 @@
 
 /* === @media max-width 991px === */
 @media (max-width: 991px) {
-
     /* banner */
     .banner-content .banner-pg {
         font-size: 28px;
     }
-
     /* footer */
     .footer .box-container {
         margin: 12px 5% 0 5%;
     }
 }
 
-
 /* === @media max-width 768px === */
 @media (max-width: 768px) {
-
     /* Header */
     #menu-btn {
         display: inline-block;
@@ -43,15 +34,14 @@
         color: #000;
     }
     .header {
-        padding-top: 16px;
-        padding-bottom: 16px;
+        padding: 16px 0;
     }
     .header .logo {
         font-size: 18px;
         width: 0;
     }
     .header .navbar {
-        max-width: 95%;
+        max-width: 100%;
         width: 100%;
         margin: 0 auto;
         position: absolute;
@@ -66,7 +56,7 @@
     .header .navbar.active {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
-    ul {
+    .header-nav-ul {
         display: block;
     }
     .header .navbar li a {
@@ -105,7 +95,6 @@
 
 /* === @media max-width 600px === */
 @media (max-width: 600px) {
-
     /* Banner */
     .banner-content .banner-pg {
         font-size: 20px;
@@ -144,7 +133,6 @@
 
 /* === @media max-width 425px === */
 @media (max-width: 425px) {
-
     /* Banner */
     .banner-content .banner-title {
         font-size: 40px;
@@ -200,7 +188,6 @@
 
 /* === @media max-width 375px === */
 @media (max-width: 375px) {
-
     .header {
         padding-top: 14px;
         padding-bottom: 14px;
